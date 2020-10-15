@@ -61,7 +61,7 @@ Anything surprising or unexpected?
 **Question 7:**
 Check out the implementation of `forkjoin` in `forkjoin.c`.
 Can you think of any way this could be optimized around the thread operations?
-- 
+- when we wanna gather all data back together, it needs to be sequential. Heavy duty computation will be very expensive. Reduce looks complicated. Specified so we can run multiple reduce's at the same time. Problem for in parallel: trying to modufy aggregate in parallel
 
 ## Penny's prerogative
 
