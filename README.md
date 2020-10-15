@@ -47,17 +47,21 @@ Read through `main.c` and answer the following:
 
 **Question 4:**
 What is more complex about the forkjoin parallelism versus mapreduce?
+- don't need the context/memset variable
 
 **Question 5:**
 What is more complex about the mapreduce parallelism versus forkjoin?
+- requires more helper functions
 
 **Question 6:**
 Run `sh test.sh`.
 Anything surprising or unexpected?
+- take about the same time instead of one being overly better than the other, even with a large data set
 
 **Question 7:**
 Check out the implementation of `forkjoin` in `forkjoin.c`.
 Can you think of any way this could be optimized around the thread operations?
+- 
 
 ## Penny's prerogative
 
